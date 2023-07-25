@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta http-equiv="refresh" content="5">
+<link rel="stylesheet" type="text/css" href="training11.css">
+    <title>training11</title>
+</head>
+<body>
+<div>
+<script>
+
+
+    
+</script>
+
+
+<button id="head"></buttom>
+<div id="eye1"></div>
+<div id="eye2"></div>
+</div>
+
+
+<div>
+<div id="badan"></div>
+<div id="dst_rast"></div>
+<div id="dst_chap"></div>
+<div id="pay_chap"></div>
+<div id="pay_rast"></div>
+</div>
+</div>
+<script>
+    var saar=document.getElementById("head")
+    var ngah1=document.getElementById("eye1")
+    var ngah2=document.getElementById("eye2")
+    var hand_right=document.getElementById("dst_rast")
+    var hand_left = document.getElementById("dst_chap")
+
+
+
+    saar.onclick=function(){
+        ngah1.style.backgroundColor="black"
+      ngah1.style.height="0.2em"
+      ngah1.style.transition="1s"
+    }
+    hand_right.onclick=function (){
+    hand_right.style.transform="rotate(-130deg)";
+    hand_right.style.transition="1s"
+
+    }
+    hand_left.onclick=function (){
+    hand_left.style.transform="rotate(130deg)";
+    hand_left.style.transition="1s"
+    }
+    </script>
+</body>
+</html>

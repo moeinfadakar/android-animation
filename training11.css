@@ -1,0 +1,32 @@
+#head{
+width: 9em;border-radius: 50% / 100% 100% 0 0;
+height: 5em;background-color: greenyellow;
+position: relative;left: 24em;top: 6em;
+}
+#eye1{
+width: 0.5em;height: 0.5em;background-color: black;border-radius: 100%;
+}
+#eye2{
+width: 0.5em;height: 0.5em;background-color: black;border-radius: 100%;
+}#badan{
+width: 8em;height: 11em;background-color: greenyellow;position: relative;left: 20em;top: 5.5em;
+}#dst_rast{
+width: 2em;background-color: greenyellow;
+height: 8em;position: relative;top: -5em;left: 28.5em;
+}
+#dst_chap{
+    width: 2em;background-color: greenyellow;
+    height: 8em;position: relative;top: -13em;left: 17.5em;
+}#pay_rast{
+    width: 2em;background-color: greenyellow;
+    height: 8em;position: relative;top: -21em;left: 25em;
+}#pay_chap{
+    width: 2em;background-color: greenyellow;
+    height: 8em;position: relative;top: -13em;left: 22em;
+}#eye1{
+    position: relative;top: 1em;left: 6em;
+}#eye2{
+position: relative;top: 0.5em;left:2.7em ;
+
+}
+
